@@ -1,0 +1,113 @@
+.App {
+  box-sizing: border-box;
+  border: green solid;
+  /* width: 100vw;
+  height: 100vh; */
+
+  min-height: 100vh;
+
+  background-image: linear-gradient(45deg, #EBFFE4,#D6F8E0 , #D6F7F0 , #C0EFF6 , #cec1e7 );
+  background-size: 400%;
+  animation: bg-animation 5s infinite alternate;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+@keyframes bg-animation {
+  0% {background-position: left;}
+  100% {background-position: right;}
+}
+
+body {
+  font-family: 'Trebuchet MS';
+  /* border: red solid; */
+
+}
+
+input {
+  padding: 5px;
+  opacity: .5;
+  border-radius: 5px;
+  border: 0px;
+}
+
+.loading {
+  text-align: center;
+}
+
+.loading h1 {
+  max-width: 600px;
+  margin-top: 40px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.loading input {
+  margin-top: 5vh;
+  margin-left: 10px;
+
+}
+
+.loading button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px 40px;
+  margin-top: 20px;
+  /* background-color: #19c3fb; */
+  opacity: 0.55;
+  border: none;
+  border-radius: 10px;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.loading2 {
+  padding: 20px;
+  margin-left: 10px;
+}
+
+
+.loaded {
+  text-align: center;
+
+}
+.loaded form {
+  margin-top: 20px;
+}
+
+.loaded input {
+  margin-left: 10px;
+}
+
+.loaded button {
+  padding: 5px 10px;
+  /* background-color: #19c3fb; */
+  opacity: 0.55;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.parentContainer {
+  display: flex;
+  justify-content: space-around;
+
+  font-size: 14px;
+
+  /* border: black solid; */
+}
+
+.parentContainer h1 {
+  font-size: 22px;
+  text-decoration: underline;  
+}
+
+.child1 {
+  /* border: yellow solid; */
+}
+
+.child2 {
+  /* border: orange solid; */
+}
